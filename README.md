@@ -12,6 +12,13 @@ code for Web, Android, Objective-C and Swift. To get started open the codelab in
 ## How to make contributions?
 Please read and follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md)
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+![Video Walkthrough](friendlychat_project.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## License
 See [LICENSE](LICENSE)

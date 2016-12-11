@@ -1,6 +1,14 @@
+<!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienVNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
 <resources>
     <string name="app_name">Friendly Chat</string>
     <string name="welcome_msg">Welcome!</string>
+    <string name="setting">Setting</string>
     <string name="sign_out">Sign Out</string>
     <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
     <string name="invite_menu_label">Invite</string>
@@ -12,4 +20,6 @@
     <string name="fresh_config">Fresh Config</string>
     <string name="cause_crash">Cause Crash</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="txt_send">SEND</string>
+    <string name="txt_enter">Enter</string>
 </resources>

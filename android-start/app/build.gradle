@@ -1,3 +1,10 @@
+/*
+ * Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by TienVNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+ */
+
 apply plugin: 'com.android.application'
 
 repositories {
@@ -53,6 +60,7 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:10.0.0'
     compile 'com.google.firebase:firebase-crash:10.0.0'
     compile 'com.google.firebase:firebase-appindexing:10.0.0'
+    compile 'com.google.firebase:firebase-analytics:10.0.0'
 
     // Firebase UI
     compile 'com.firebaseui:firebase-ui-database:0.4.0'

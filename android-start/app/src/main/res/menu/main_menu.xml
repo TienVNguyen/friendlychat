@@ -1,19 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) 2016. Self Training Systems, Inc - All Rights Reserved
+  ~ Unauthorized copying of this file, via any medium is strictly prohibited
+  ~ Proprietary and confidential
+  ~ Written by TienVNguyen <tien.workinfo@gmail.com - tien.workinfo@icloud.com>, October 2015
+  -->
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item
-        android:id="@+id/sign_out_menu"
-        android:title="@string/sign_out"
-        app:showAsAction="never"/>
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MainActivity">
+
     <item
         android:id="@+id/fresh_config_menu"
+        android:orderInCategory="100"
         android:title="@string/fresh_config"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/invite_menu"
+        android:orderInCategory="100"
         android:title="@string/invite_menu_label"
-        app:showAsAction="never"/>
+        app:showAsAction="never" />
+
     <item
         android:id="@+id/crash_menu"
-        android:title="@string/cause_crash"/>
+        android:orderInCategory="100"
+        android:title="@string/cause_crash"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sign_out_menu"
+        android:orderInCategory="100"
+        android:title="@string/sign_out"
+        app:showAsAction="never" />
+
 </menu>
